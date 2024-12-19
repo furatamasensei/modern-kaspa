@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js-legacy'
-// @ts-expect-error no types
+
 import { Ease, Tween } from '@createjs/tweenjs'
 import { Block } from '../model/Block'
 import { BlockColorConst, BlockColor } from '../model/BlockColor'
@@ -21,9 +21,8 @@ const blockTexture = (
   if (!blockTextures[key]) {
     const graphics = new PIXI.Graphics()
     graphics.lineStyle(
-      // @ts-expect-error no types
       theme.scale(theme.components.block[blockColor].border.width, blockSize),
-      // @ts-expect-error no types
+
       theme.components.block[blockColor].border.color,
       1,
       0.5,
@@ -104,11 +103,11 @@ export default class BlockSprite extends PIXI.Container {
   private buildSprite = (): PIXI.Sprite => {
     const sprite = new PIXI.Sprite()
     sprite.anchor.set(0.5, 0.5)
-    // @ts-expect-error no types
+
     sprite.tint = theme.components.block[this.blockColor].color.main
 
     sprite.interactive = true
-    // @ts-expect-error no types
+
     sprite.buttonMode = true
     sprite.on('pointerover', () => {
       Tween.get(this.scale).to(
@@ -168,7 +167,7 @@ export default class BlockSprite extends PIXI.Container {
           ) * 4.0,
         ) / 4.0,
       fontWeight: theme.components.block.text.fontWeight,
-      // @ts-expect-error no types
+
       fill: theme.components.block[this.blockColor].color.contrastText,
     })
 
@@ -199,7 +198,7 @@ export default class BlockSprite extends PIXI.Container {
     const graphics = new PIXI.Graphics()
     graphics.lineStyle(
       theme.scale(blockHighlight.lineWidth, this.blockSize),
-      // @ts-expect-error no types
+
       theme.components.block[this.highlightColor].color.highlight,
     )
     graphics.drawRoundedRect(
