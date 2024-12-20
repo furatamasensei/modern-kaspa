@@ -7,7 +7,7 @@ import { packageVersion } from '../version'
 
 export default class ApiDataSource implements DataSource {
   getTickIntervalInMilliseconds = (): number => {
-    return 100
+    return 1000
   }
 
   getBlocksBetweenHeights = (
