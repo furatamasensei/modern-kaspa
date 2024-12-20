@@ -156,7 +156,7 @@ export function MainNav() {
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
-                      Explore
+                      Explorer
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
