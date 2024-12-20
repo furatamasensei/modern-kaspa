@@ -78,9 +78,9 @@ export default class HeightSprite extends PIXI.Container {
     sprite.alpha = 0.0
     sprite.tint = theme.components.height.color.highlight
 
-    sprite.interactive = true
+    sprite.interactive = false
     // @ts-ignore
-    sprite.buttonMode = true
+    sprite.buttonMode = false
     sprite.on('pointerover', () => {
       Tween.get(sprite).to({ alpha: 1.0 }, 200, Ease.linear)
     })

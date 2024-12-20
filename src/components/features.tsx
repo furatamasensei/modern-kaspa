@@ -29,7 +29,7 @@ export default function Features() {
             >
               the Trilemma
             </a>{' '}
-            in the usage of digital assets, enabling the following benefits
+            in the usage of digital assets, unlocking the following benefits
           </div>
         </div>
         <div className="mt-16">

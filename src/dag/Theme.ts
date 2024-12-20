@@ -185,7 +185,7 @@ export const theme: Theme = {
 
     edge: {
       normal: {
-        color: 0xaaaaaa, // Stas original: 0xaaaaaa
+        color: 0xa1a1aa, // Stas original: 0xaaaaaa
         lineWidth: 2, // Stas original: 2
         arrowRadius: 5, // Stas original: 4
       },

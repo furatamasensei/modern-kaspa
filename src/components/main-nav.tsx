@@ -16,6 +16,7 @@ import {
 import LogoIcon from './logo-icon'
 import Logo from './logo'
 import { Button } from './ui/button'
+import { MenuIcon } from 'lucide-react'
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -62,8 +63,8 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function MainNav() {
   return (
-    <div className="fixed top-0 inset-x-0 bg-zinc-900/10 backdrop-blur-lg border-b z-50">
-      <div className="grid grid-cols-12 gap-0 p-4 items-center">
+    <div className="fixed z-50 top-0 inset-x-0 bg-zinc-900/10 backdrop-blur-lg border-b">
+      <div className="grid grid-cols-12 gap-0 p-4 items-center relative">
         <div className="col-span-12 md:col-span-2">
           <Link href="/">
             <Logo className="w-auto h-14" />
@@ -177,6 +178,9 @@ export function MainNav() {
           <div className="flex justify-end">
             <Button>Get Started</Button>
           </div>
+        </div>
+        <div className="lg:hidden absolute right-0 inset-y-0 p-6 flex items-center">
+          <MenuIcon />
         </div>
       </div>
     </div>

@@ -107,9 +107,9 @@ export default class BlockSprite extends PIXI.Container {
     // @ts-expect-error no types
     sprite.tint = theme.components.block[this.blockColor].color.main
 
-    sprite.interactive = true
+    sprite.interactive = false
     // @ts-expect-error no types
-    sprite.buttonMode = true
+    sprite.buttonMode = false
     sprite.on('pointerover', () => {
       Tween.get(this.scale).to(
         {
