@@ -40,8 +40,8 @@ export default function Hero() {
           )}
         />
       </div>
-      {/* <div className="absolute -z-20 -top-96 -right-96 size-[1000px] bg-[radial-gradient(circle,rgba(110,199,186,1)0%,rgba(110,199,186,0.7581626400560224)0%,rgba(9,9,11,0.3379945728291317)50%)]" /> */}
-      {/* <div className="absolute -z-20 -bottom-80 left-[-40%] size-[1000px] bg-[radial-gradient(circle,rgba(110,199,186,1)0%,rgba(110,199,186,0.7581626400560224)0%,rgba(9,9,11,0.3379945728291317)50%)]" /> */}
+      <div className="absolute -z-20 -top-96 -right-96 size-[1000px] bg-[radial-gradient(circle,rgba(110,199,186,1)0%,rgba(110,199,186,0.7581626400560224)0%,rgba(9,9,11,0.3379945728291317)50%)]" />
+      <div className="absolute -z-20 -bottom-80 left-[-40%] size-[1000px] bg-[radial-gradient(circle,rgba(110,199,186,1)0%,rgba(110,199,186,0.7581626400560224)0%,rgba(9,9,11,0.3379945728291317)50%)]" />
     </div>
   )
 }

@@ -25,7 +25,7 @@ export default function Features() {
             <a
               href="https://www.coinbase.com/learn/crypto-glossary/what-is-the-blockchain-trilemma#:~:text=The%20blockchain%20trilemma%20refers%20to,to%20achieve%20all%20three%20simultaneously."
               target="_blank"
-              className="text-teal-400 underline hover:text-teal-500"
+              className="text-teal-400 underline hover:text-teal-400"
             >
               the Trilemma
             </a>{' '}

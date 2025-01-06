@@ -7,11 +7,11 @@ export default function Community() {
         <div className="max-w-5xl pt-32 pb-16 lg:pt-60 space-y-6 leading-snug">
           <div className="font-bold  capitalize text-4xl leading-none lg:text-7xl lg:leading-none">
             Built by industry pioneers,
-            <span className="text-emerald-300"> led by the people.</span>
+            <span className="text-teal-400"> led by the people.</span>
           </div>
           <div className="text-lg lg:text-xl">
             Kaspa is a community project –{' '}
-            <i className="text-emerald-300 italic underline font-medium">
+            <i className="text-teal-400 italic underline font-medium">
               completely open source with no central governance – following in
               the ethos of coins like Bitcoin
             </i>

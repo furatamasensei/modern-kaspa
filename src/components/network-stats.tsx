@@ -161,7 +161,7 @@ export default async function NetworkStats() {
                       <div className="text-2xl md:text-3xl">kHeavyHash</div>
                       <a
                         href="https://arxiv.org/pdf/1911.05193.pdf"
-                        className="block text-sm text-muted-foreground text-teal-400 hover:text-teal-500 transition-colors"
+                        className="block text-sm text-muted-foreground text-teal-400 hover:text-teal-400 transition-colors"
                       >
                         Learn more
                       </a>
@@ -188,7 +188,7 @@ export default async function NetworkStats() {
                       </div>
                       <Link
                         href="/features/#block-dag"
-                        className="block text-sm text-muted-foreground text-teal-400 hover:text-teal-500 transition-colors"
+                        className="block text-sm text-muted-foreground text-teal-400 hover:text-teal-400 transition-colors"
                       >
                         Learn more
                       </Link>
