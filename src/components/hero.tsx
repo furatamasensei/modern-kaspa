@@ -31,7 +31,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="max-h-[400px]">
+        <div className="max-h-[600px]">
           <GraphInspector />
         </div>
         <DotPattern
