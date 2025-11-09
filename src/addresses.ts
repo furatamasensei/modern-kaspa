@@ -13,7 +13,7 @@ const resolveAddress = (environmentVariableName: string): string => {
   return `${prefix}${address}`
 }
 
-const apiAddress = 'https://kgi-tn11.kaspad.net:3148'
+const apiAddress = 'https://kgi.kaspad.net:3147'
 const explorerAddress = ''
 const kaspaLiveAddress = ''
 
